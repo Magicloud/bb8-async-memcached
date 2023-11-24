@@ -1,0 +1,11 @@
+[package]
+name = "bb8-async-memcached"
+version = "2023.11.24"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = { version = "*" }
+async-memcached = { version = "*" }
+bb8 = { version = "*" }
